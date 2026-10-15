@@ -1,6 +1,6 @@
 # Data-Playground
 
-Repositório local destinado a guardar demonstrações do funcionamento das APIs públicas utilizadas no projeto.
+Página estática que demonstra as APIs públicas e externas testadas antes de serem usadas no ConectAgro. Acesse em https://conectagro-usp.github.io/Data-Playground/ ou abra o `index.html` no navegador.
 
 ## APIs testadas
 
@@ -12,4 +12,9 @@ Repositório local destinado a guardar demonstrações do funcionamento das APIs
 - **[OSRM](https://project-osrm.org)** - cálculo de rota entre dois pontos (servidor de demonstração público).
   ```
   GET https://router.project-osrm.org/route/v1/driving/-46.633309,-23.550520;-46.625290,-23.533773?overview=false
+  ```
+
+- **[CNPJá](https://cnpja.com/api/open)** - dados cadastrais de um CNPJ.
+  ```
+  GET https://open.cnpja.com/office/58622614000195
   ```
